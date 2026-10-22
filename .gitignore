@@ -1,0 +1,23 @@
+# الداتا (271 MB، ما ترفعوهاش)
+data/*
+!data/.gitkeep
+
+# أسرار
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# مخرجات Spark وDelta
+spark-warehouse/
+metastore_db/
+checkpoints/
+output/
+
+# macOS
+.DS_Store
