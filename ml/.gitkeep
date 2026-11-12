@@ -1,0 +1,10 @@
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.pkl
+.env
+__pycache__/
+.venv/
+.idea/
+.vscode/
