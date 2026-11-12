@@ -21,3 +21,11 @@ output/
 
 # macOS
 .DS_Store
+
+# ملفات الموديل والداتا
+*.pkl
+*.parquet
+*.csv
+!data/README.md
+.idea/
+.vscode/
